@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Assume a clean debian install with 
+# Cleanup
+sudo apt-get remove watchdog
 
 #install the watchdog
 sudo apt-get install watchdog
